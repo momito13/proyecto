@@ -18,7 +18,7 @@ def fondos_mutuos():
 def rentabilidades():
     fecha_datepicker = request.form.get('datepicker')
     df = pd.read_csv('uploads/rentabilidades_acumuladas.csv', sep=";", index_col=None)
-
+    df['rentabilidad_acumulada']=df['rentabilidad_acumulada'].map('{:.2%}'.format)
     df['fecha'] = pd.to_datetime(df['fecha'], format='%Y-%m-%d')
     fechas = df['fecha'].unique()
 
