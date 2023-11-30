@@ -58,7 +58,7 @@ a:focus {
 #sidebar {
     min-width: 250px;
     max-width: 250px;
-    background: #394867;
+    background: rgb(61, 131, 97);
     color: #fff;
     transition: all 0.3s;
     height: 100vh;
@@ -70,12 +70,12 @@ a:focus {
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: #29354E;
+    background: rgb(28, 103, 88);
 }
 
 #sidebar ul.components {
     padding: 20px 0;
-    border-bottom: 1px solid #475877;
+    border-bottom: 1px solid rgb(28, 103, 88);
 }
 
 #sidebar ul p {
@@ -90,14 +90,14 @@ a:focus {
 }
 
 #sidebar ul li a:hover {
-    color: #007BFF;
-    background: #fff;
+    color: rgb(61, 131, 97);
+    background: rgb(238, 242, 230);
 }
 
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
     color: #fff;
-    background: #29354E;
+    background: rgb(28, 103, 88);
 }
 
 a[data-toggle="collapse"] {
@@ -115,7 +115,7 @@ a[data-toggle="collapse"] {
 ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: #29354E;
+    background: rgb(28, 103, 88);
 }
 
 ul.CTAs {
@@ -137,7 +137,7 @@ a.download {
 
 a.article,
 a.article:hover {
-    background: #29354E !important;
+    background: rgb(28, 103, 88) !important;
     color: #fff !important;
 }
 
