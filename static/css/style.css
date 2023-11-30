@@ -20,9 +20,10 @@ p {
 a,
 a:hover,
 a:focus {
-    color: #007BFF;
+    color: rgb(115, 214, 21);
     text-decoration: none;
     transition: all 0.3s;
+    font-weight: bold;
 }
 
 .navbar {
