@@ -148,12 +148,12 @@ a.article:hover {
     min-height: 100vh;
     transition: all 0.3s;
     margin-left: 15px;
-    background: #fff;
+    background: rgb(238, 242, 230);
 }
 
 /* Encabezados */
 h1, h2 {
-    color: #29354E;
+    color: rgb(28, 103, 88);
 }
 
 /* MEDIAQUERIES */
@@ -194,7 +194,7 @@ th, td {
 }
 
 th {
-    background-color: #394867;
+    background-color: rgb(61, 131, 97);
     color: #fff;
 }
 
